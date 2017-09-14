@@ -18,7 +18,7 @@ function renderButtons() {
 function displayGifs() {
 	var thisShow = $(this).attr("tv-title");
 	console.log(thisShow);
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + thisShow + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + thisShow + "&api_key=dc6zaTOxFJmzC&limit=10";
 
 	// ajax call that gets and returns the response object from the query url
 	$.ajax({
