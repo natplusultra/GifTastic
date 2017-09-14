@@ -31,10 +31,11 @@ function displayGifs() {
 		// creates a div that contains a still image gif and rating info for each response item
 		for (var i = 0; i < response.length; i++) {
 			var gifDiv = $("<div>");
-			gifDiv.attr("id", "gifDiv");
+			gifDiv.addClass("gifDiv");
 
 			var rating = response[i].rating;
 			var p = $("<p>").html("Rating: " + rating);
+			p.addClass("text-center");
 
 			var gifImage = $("<img>");
 			gifImage.addClass("gif");
