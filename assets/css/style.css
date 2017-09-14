@@ -1,0 +1,39 @@
+header {
+	background-image: url("../images/colorbars.png");
+	background-size: 100% 100%;
+	color: white;
+}
+
+h1 {
+	font-size: 75px;
+	letter-spacing: 5px;
+}
+
+.header-text {
+	font-size: 25px;
+}
+
+#userInput {
+	width: 300px;
+	font-size: 13px;
+	padding: 0px 10px;
+}
+
+.tv-input {
+	margin-top: 30px;
+}
+
+.btn {
+	margin: 0;
+	height: 30px;
+	font-size: 13px;
+	padding-top: 6px;
+}
+
+.btn-outline-secondary {
+	margin: 5px;
+}
+
+#gifDiv {
+	margin: 10px;
+}
